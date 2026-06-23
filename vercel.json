@@ -1,3 +1,5 @@
 {
-  "rootDirectory": "Ardhra-Profile"
+  "buildCommand": "cd Ardhra-Profile && npm install && npm run build",
+  "outputDirectory": "Ardhra-Profile/dist",
+  "installCommand": "echo skip"
 }
