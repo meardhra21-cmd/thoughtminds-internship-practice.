@@ -1,4 +1,3 @@
-import React from "react";
 import { Code, Globe, Database, Layers } from "lucide-react";
 
 export default function Skills() {

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Mail, Phone, MapPin, Linkedin, Instagram } from 'lucide-react';
+import { Mail, Phone, MapPin, Linkedin, Globe } from 'lucide-react';
 
 export default function Contact() {
   return (
@@ -19,7 +19,7 @@ export default function Contact() {
         <Phone size={24} />
         <MapPin size={24} />
         <Linkedin size={24} />
-        <Instagram size={24} />
+        <Globe size={24} />
       </div>
     </section>
   );
