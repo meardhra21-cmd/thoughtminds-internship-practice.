@@ -22,7 +22,7 @@ export default function Experience() {
           </span>
         </div>
         <p className="text-sm text-slate-400 leading-relaxed">
-          Working with responsive and interactive web applications using HTML,CSS,JavaScript,React,Git,Github.Focused on applying industry best practices and strengthening problem-solving skills in a collaborative environment.
+          Actively engaged in collaborative training modules exploring machine learning paradigms, data workflow configurations, and transitioning academic programming methodologies into practical, industrial applications.
         </p>
       </div>
     </section>
