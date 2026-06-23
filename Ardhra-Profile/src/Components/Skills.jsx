@@ -5,7 +5,7 @@ export default function Skills() {
   const skills = {
     languages: ["Python", "C"],
     frontend: ["HTML5 (Basics)", "CSS3 (Basics)", "React (Basics)"],
-    backend: ["FastAPI", "Node.js (Learning)", "MySQL", "PostgreSQL (Learning)"],
+    backend: ["Node.js (Learning)"],
     tools: ["VS Code", "Git", "GitHub", "Tesseract OCR"],
     soft: ["Problem Solving", "Quick Learner", "Adaptable", "Self-Driven", "Team Collaboration", "Communication"]
   };
@@ -39,7 +39,7 @@ export default function Skills() {
         <div className="p-5 rounded-xl bg-slate-900/40 border border-slate-800/80 space-y-4">
           <div className="flex items-center gap-3 text-indigo-400">
             <Database className="w-5 h-5" />
-            <h3 className="font-semibold text-slate-200">Backend & DB</h3>
+            <h3 className="font-semibold text-slate-200">Backend</h3>
           </div>
           <div className="flex flex-wrap gap-2">
             {skills.backend.map(s => <span key={s} className="px-2 py-1 text-xs font-mono rounded bg-slate-900 text-slate-400 border border-slate-800">{s}</span>)}

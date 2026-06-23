@@ -22,8 +22,8 @@ export default function Experience() {
           </span>
         </div>
         <p className="text-sm text-slate-400 leading-relaxed">
-          Actively engaged in collaborative training modules exploring machine learning paradigms, data workflow configurations, and transitioning academic programming methodologies into practical, industrial applications.
-        </p>
+          Actively engaged in collaborative training modules exploring machine learning paradigmsonfigurations, and transitioning academic programming methodologies into practical, industrial applications.
+        </p>, data workflow c
       </div>
     </section>
   );
