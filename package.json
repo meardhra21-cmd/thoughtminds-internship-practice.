@@ -1,4 +1,7 @@
 {
+  "scripts": {
+    "build": "npm install --prefix Ardhra-Profile && npm run build --prefix Ardhra-Profile && cp -r Ardhra-Profile/dist/. ."
+  },
   "dependencies": {
     "@tailwindcss/vite": "^4.3.1",
     "lucide-react": "^1.21.0",
