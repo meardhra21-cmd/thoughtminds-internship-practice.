@@ -39,3 +39,52 @@ export default function App() {
     </div>
   );
 }
+
+const styles = {
+  appWrapper: {
+    backgroundColor: '#0a192f',
+    minHeight: '100vh',
+    color: '#8892b0',
+    fontFamily: '"Inter", system-ui, -apple-system, sans-serif',
+  },
+  header: {
+    position: 'sticky',
+    top: 0,
+    zIndex: 100,
+    backdropFilter: 'blur(10px)',
+    backgroundColor: 'rgba(10, 25, 47, 0.85)',
+    borderBottom: '1px solid rgba(100, 255, 218, 0.1)',
+  },
+  navContainer: {
+    display: 'flex',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+    maxWidth: '1100px',
+    margin: '0 auto',
+    padding: '20px 20px',
+  },
+  logoGroup: {
+    display: 'flex',
+    alignItems: 'center',
+    gap: '10px',
+  },
+  logoText: {
+    color: '#64ffda',
+    fontWeight: 'bold',
+    fontSize: '18px',
+    letterSpacing: '1px',
+  },
+  navLinks: {
+    display: 'flex',
+    gap: '20px',
+  },
+  link: {
+    color: '#8892b0',
+    textDecoration: 'none',
+    fontSize: '14px',
+    transition: 'color 0.3s',
+  },
+  mainContent: {
+    paddingTop: '20px',
+  }
+};
