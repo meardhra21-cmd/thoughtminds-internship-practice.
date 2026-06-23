@@ -1,0 +1,6 @@
+{
+  "buildCommand": "npm install --prefix Ardhra-Profile && npm run build --prefix Ardhra-Profile",
+  "outputDirectory": "Ardhra-Profile/dist",
+  "installCommand": "echo 'skip root install'",
+  "framework": null
+}
