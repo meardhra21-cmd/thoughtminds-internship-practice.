@@ -1,0 +1,8 @@
+{
+  "builds": [
+    {
+      "src": "Ardhra-Profile/package.json",
+      "use": "@vercel/static-build"
+    }
+  ]
+}
